@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FINARA — Consulting & Advisory for SME's</title>
+  <meta name="description" content="FINARA — pendampingan keuangan, akuntansi, dan pajak untuk UMKM dan bisnis berkembang. Mitra terpercaya untuk laporan keuangan rapi dan pajak yang patuh." />
+
+  <!-- Google Fonts: Sora (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#hero" class="brand">
+        <img src="assest/finara logo.png" alt="FINARA" class="brand__logo" />
+        </a>
+        <span class="brand__mark" aria-hidden="true">
+            <path d="M3 25V3h6l5 8V3h6v22h-6l-5-8v8H3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#owner">Owner</a>
+        <a href="#layanan">Layanan &amp; Harga</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#kontak" class="nav__cta">Konsultasi</a>
+      </nav>
+
+      <button class="nav__burger" id="burger" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <p class="eyebrow reveal">Consulting &amp; Advisory for SME's</p>
+      <h1 class="hero__title reveal">
+        Hello!<br /><span>We are FINARA.</span>
+      </h1>
+      <p class="hero__lead reveal">
+        Mengelola keuangan dan pajak sering kali membingungkan, tetapi bersama
+        FINARA, semua jadi lebih mudah. Kami merapikan laporan keuangan,
+        mengoptimalkan pajak sesuai aturan, dan menyusun strategi finansial
+        yang tepat untuk pertumbuhan usaha yang sehat dan aman.
+      </p>
+      <div class="hero__actions reveal">
+        <a class="btn btn--primary" href="https://wa.me/6285721432928" target="_blank" rel="noopener">
+          Konsultasi via WhatsApp
+        </a>
+        <a class="btn btn--ghost" href="#layanan">Lihat Layanan &amp; Harga</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TENTANG ===================== -->
+  <section class="section" id="tentang">
+    <div class="container about">
+      <div class="about__head reveal">
+        <span class="tag">Tentang Kami</span>
+        <h2 class="section__title">Mitra terpercaya untuk keuangan &amp; pajak bisnis Anda</h2>
+      </div>
+      <p class="about__text reveal">
+        FINARA hadir sebagai mitra terpercaya yang siap membantu bisnis Anda
+        merapikan laporan keuangan, mengoptimalkan pajak sesuai aturan, dan
+        menyusun strategi finansial yang tepat. Dengan solusi yang praktis dan
+        mudah dipahami, FINARA siap mendampingi Anda mengambil keputusan bisnis
+        yang cerdas demi pertumbuhan usaha yang sehat dan aman.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== OWNER ===================== -->
+  <section class="section section--alt" id="owner">
+    <div class="container owner">
+      <div class="owner__photo reveal">
+        <!-- Ganti src dengan foto Bu Is: assets/ismi.jpg -->
+        <img src="assest/ismi.jpeg" alt="Ismi Danty Nopiani" onerror="this.classList.add('is-empty');this.alt='Tambahkan foto: assets/ismi.jpg'" />
+        <div class="owner__photo-fallback">Tambahkan foto Anda di<br /><code>assets/ismi.jpg</code></div>
+      </div>
+      <div class="owner__body reveal">
+        <span class="tag">Background of the Owner</span>
+        <h2 class="section__title">Ismi Danty Nopiani</h2>
+        <p>
+          Praktisi Finance, Accounting, dan Pajak yang membantu pemilik bisnis
+          memahami angka usahanya dengan lebih jelas, rapi, dan terarah.
+        </p>
+        <p>
+          Berlatar belakang Akuntansi, lulusan Pendidikan Profesi Akuntansi
+          (PPAk), serta bersertifikasi Certified Tax Planning. Memiliki
+          kompetensi dalam pengelolaan cash flow, pembukuan, analisis laporan
+          keuangan, budgeting, perencanaan pajak, dan pendampingan bisnis.
+        </p>
+        <p>
+          Melalui FINARA, Ismi mendampingi UMKM dan bisnis berkembang agar tidak
+          hanya fokus pada penjualan, tetapi juga memiliki sistem keuangan dan
+          pajak yang lebih tertata, sehat, dan bisa menjadi dasar pengambilan
+          keputusan.
+        </p>
+        <a class="link-arrow" href="https://www.linkedin.com/in/ismidanty" target="_blank" rel="noopener">
+          Lihat profil lengkap di LinkedIn →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== STATISTIK ===================== -->
+  <section class="section stats" id="stats">
+    <div class="container stats__grid">
+      <div class="stat reveal">
+        <span class="stat__num" data-count="15">0</span>
+        <p class="stat__label">UMKM yang sudah didampingi</p>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__num" data-count="33">0</span>
+        <p class="stat__label">Murid yang sudah diajarkan akuntansi &amp; pajak</p>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__num" data-count="60">0</span>
+        <p class="stat__label">Perusahaan afiliasi dalam grup yang dikelola compliance Finance, Accounting &amp; Tax</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LAYANAN & HARGA ===================== -->
+  <section class="section section--alt" id="layanan">
+    <div class="container">
+      <div class="head-center reveal">
+        <span class="tag">Pricelist Mentoring Perpajakan &amp; Akuntansi Pajak</span>
+        <h2 class="section__title">Untuk Badan Usaha dan Yayasan</h2>
+      </div>
+
+      <div class="pricing">
+        <!-- BASIC -->
+        <article class="card reveal">
+          <header class="card__head">
+            <h3>Basic</h3>
+            <p class="card__price">Rp5.000.000</p>
+            <ul class="card__meta">
+              <li>1 bulan &middot; Hybrid</li>
+              <li>Maks. 8 pertemuan &middot; 2 jam/sesi</li>
+              <li>Maks. 16 jam &middot; Maks. 5 orang</li>
+            </ul>
+          </header>
+          <div class="card__body">
+            <h4>Materi</h4>
+            <ul>
+              <li>Kewajiban pajak badan usaha &amp; yayasan</li>
+              <li>Dasar PPh Badan, PPh 21, 23, Final, PPN</li>
+              <li>Pengenalan akuntansi pajak</li>
+              <li>Review administrasi pajak</li>
+              <li>Q&amp;A kasus dasar</li>
+            </ul>
+          </div>
+          <footer class="card__foot">
+            <h4>Output</h4>
+            <p>Memahami kewajiban pajak utama dan gambaran awal administrasi pajak.</p>
+            <a class="btn btn--ghost btn--full" href="https://wa.me/6285721432928?text=Halo%20FINARA%2C%20saya%20tertarik%20paket%20Basic" target="_blank" rel="noopener">Pilih Basic</a>
+          </footer>
+        </article>
+
+        <!-- GROWTH (highlight) -->
+        <article class="card card--featured reveal">
+          <span class="card__badge">Paling Diminati</span>
+          <header class="card__head">
+            <h3>Growth</h3>
+            <p class="card__price">Rp9.500.000</p>
+            <ul class="card__meta">
+              <li>2 bulan &middot; Offline</li>
+              <li>8 pertemuan &middot; 2 jam/sesi</li>
+              <li>16 jam &middot; Maks. 8 orang</li>
+            </ul>
+          </header>
+          <div class="card__body">
+            <h4>Materi</h4>
+            <ul>
+              <li>Semua materi Basic</li>
+              <li>Review transaksi &amp; dokumen pendukung</li>
+              <li>Rekonsiliasi fiskal dasar</li>
+              <li>Akuntansi pajak PPh &amp; PPN</li>
+              <li>Biaya deductible vs non-deductible</li>
+              <li>Checklist pajak bulanan</li>
+              <li>Tax clinic berbasis kasus</li>
+            </ul>
+          </div>
+          <footer class="card__foot">
+            <h4>Output</h4>
+            <p>Pemahaman rapi hubungan transaksi, pencatatan, dan kewajiban pajak + checklist bulanan.</p>
+            <a class="btn btn--primary btn--full" href="https://wa.me/6285721432928?text=Halo%20FINARA%2C%20saya%20tertarik%20paket%20Growth" target="_blank" rel="noopener">Pilih Growth</a>
+          </footer>
+        </article>
+
+        <!-- INTENSIVE -->
+        <article class="card reveal">
+          <header class="card__head">
+            <h3>Intensive</h3>
+            <p class="card__price">Rp13.000.000</p>
+            <ul class="card__meta">
+              <li>3 bulan &middot; Offline / Hybrid</li>
+              <li>12 pertemuan &middot; 2 jam/sesi</li>
+              <li>24 jam &middot; Maks. 15 orang</li>
+            </ul>
+          </header>
+          <div class="card__body">
+            <h4>Materi</h4>
+            <ul>
+              <li>Semua materi Growth</li>
+              <li>Pendampingan laporan keuangan 3 bulan</li>
+              <li>Simulasi PPh Badan</li>
+              <li>Rekonsiliasi komersial &amp; fiskal</li>
+              <li>Tax planning dasar</li>
+              <li>Tax calendar</li>
+              <li>Rekomendasi perbaikan administrasi</li>
+            </ul>
+          </div>
+          <footer class="card__foot">
+            <h4>Output</h4>
+            <p>Pendampingan lengkap: pajak, akuntansi pajak, laporan keuangan, dan arahan perbaikan.</p>
+            <a class="btn btn--ghost btn--full" href="https://wa.me/6285721432928?text=Halo%20FINARA%2C%20saya%20tertarik%20paket%20Intensive" target="_blank" rel="noopener">Pilih Intensive</a>
+          </footer>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TIMELINE PROGRAM ===================== -->
+  <section class="section" id="timeline">
+    <div class="container">
+      <div class="head-center reveal">
+        <span class="tag">Timeline Program Mentoring</span>
+        <h2 class="section__title">Untuk Badan Usaha dan Yayasan</h2>
+      </div>
+
+      <div class="tabs reveal" role="tablist">
+        <button class="tab is-active" data-tab="basic" role="tab">Basic</button>
+        <button class="tab" data-tab="growth" role="tab">Growth</button>
+        <button class="tab" data-tab="intensive" role="tab">Intensive</button>
+      </div>
+
+      <!-- BASIC -->
+      <div class="tab-panel is-active" id="tab-basic" role="tabpanel">
+        <p class="tab-panel__meta">Paket Basic &middot; 1 Bulan &middot; Maks. 8 Pertemuan &middot; Hybrid</p>
+        <ol class="week-list">
+          <li><span class="week">Minggu 1</span><div><strong>Assessment &amp; Fondasi Pajak</strong><p>Kick-off, pemetaan kebutuhan, kewajiban pajak badan usaha &amp; yayasan, mapping transaksi pajak.</p></div></li>
+          <li><span class="week">Minggu 2</span><div><strong>Pajak Transaksi Operasional</strong><p>PPh 21, PPh 23, PPh Final, PPN, perlakuan pajak gaji/honor/jasa/vendor, bukti potong.</p></div></li>
+          <li><span class="week">Minggu 3</span><div><strong>Dasar Akuntansi Pajak</strong><p>Pencatatan akuntansi pajak, utang pajak &amp; pajak dibayar di muka, review chart of accounts.</p></div></li>
+          <li><span class="week">Minggu 4</span><div><strong>Checklist &amp; Tax Clinic</strong><p>Tax calendar, checklist pajak bulanan, Q&amp;A kasus peserta, ringkasan area perbaikan.</p></div></li>
+        </ol>
+      </div>
+
+      <!-- GROWTH -->
+      <div class="tab-panel" id="tab-growth" role="tabpanel">
+        <p class="tab-panel__meta">Paket Growth &middot; 2 Bulan &middot; 8 Pertemuan &middot; Offline</p>
+        <ol class="week-list">
+          <li><span class="week">Minggu 1</span><div><strong>Kick-off &amp; Tax Diagnostic</strong><p>Pemetaan administrasi pajak, identifikasi transaksi, review alur dokumen.</p></div></li>
+          <li><span class="week">Minggu 2</span><div><strong>Kewajiban Pajak</strong><p>PPh Badan/21/23/Final, PPN, pajak yayasan, perbedaan transaksi usaha/donasi/hibah.</p></div></li>
+          <li><span class="week">Minggu 3</span><div><strong>Akuntansi Pajak</strong><p>Pencatatan PPh &amp; PPN, utang pajak, mapping akun berdampak pajak.</p></div></li>
+          <li><span class="week">Minggu 4</span><div><strong>Review Dokumen</strong><p>Invoice, bukti potong, kontrak, reimbursement, identifikasi ketidaksesuaian.</p></div></li>
+          <li><span class="week">Minggu 5</span><div><strong>Rekonsiliasi Fiskal</strong><p>Hubungan laporan komersial &amp; fiskal, biaya deductible/non-deductible, koreksi fiskal.</p></div></li>
+          <li><span class="week">Minggu 6</span><div><strong>Pajak Pengurus &amp; Karyawan</strong><p>Gaji, honor, bonus, kompensasi, pajak pengurus yayasan/direksi/tenaga ahli.</p></div></li>
+          <li><span class="week">Minggu 7</span><div><strong>Tax Clinic &amp; Risk Review</strong><p>Kasus pajak aktual, identifikasi risiko, rekomendasi perbaikan.</p></div></li>
+          <li><span class="week">Minggu 8</span><div><strong>Final Review &amp; Action Plan</strong><p>Checklist bulanan, review pemahaman, rekomendasi &amp; action plan.</p></div></li>
+        </ol>
+      </div>
+
+      <!-- INTENSIVE -->
+      <div class="tab-panel" id="tab-intensive" role="tabpanel">
+        <p class="tab-panel__meta">Paket Intensive &middot; 3 Bulan &middot; 12 Pertemuan &middot; Offline / Hybrid &middot; Termasuk Pendampingan Laporan Keuangan</p>
+        <ol class="week-list">
+          <li><span class="week">Minggu 1</span><div><strong>Financial Tax Assessment</strong><p>Pemetaan proses keuangan/akuntansi/pajak, review alur transaksi &amp; dokumen.</p></div></li>
+          <li><span class="week">Minggu 2</span><div><strong>Mapping Kewajiban Pajak</strong><p>PPh/PPN badan usaha &amp; yayasan, penyusunan tax calendar awal.</p></div></li>
+          <li><span class="week">Minggu 3</span><div><strong>Setup Akuntansi Pajak</strong><p>Review CoA, mapping akun pajak, pencatatan utang pajak &amp; pajak dibayar di muka.</p></div></li>
+          <li><span class="week">Minggu 4</span><div><strong>Review Transaksi &amp; Dokumen</strong><p>Invoice, bukti potong, kontrak, vendor, honor, daftar prioritas perbaikan.</p></div></li>
+          <li><span class="week">Minggu 5</span><div><strong>Closing Bulanan</strong><p>Review pencatatan pendapatan/biaya/aset/kewajiban, transaksi berdampak pajak.</p></div></li>
+          <li><span class="week">Minggu 6</span><div><strong>Pencatatan Pajak Bulanan</strong><p>PPh &amp; PPN, review bukti potong, monitoring kewajiban pajak.</p></div></li>
+          <li><span class="week">Minggu 7</span><div><strong>Rekonsiliasi Komersial &amp; Fiskal</strong><p>Review laporan komersial, koreksi fiskal, deductible/non-deductible.</p></div></li>
+          <li><span class="week">Minggu 8</span><div><strong>Review Draft Laporan Keuangan</strong><p>Draft LK bulanan, akun pajak dalam LK, catatan perbaikan.</p></div></li>
+          <li><span class="week">Minggu 9</span><div><strong>Laporan Keuangan Lanjutan</strong><p>Pendampingan LK periode berjalan, konsistensi pencatatan, posisi pajak.</p></div></li>
+          <li><span class="week">Minggu 10</span><div><strong>Tax Planning &amp; Risk Review</strong><p>Tax planning aman, risiko pajak pihak berelasi, kontrol pajak internal.</p></div></li>
+          <li><span class="week">Minggu 11</span><div><strong>Finalisasi Laporan</strong><p>Review final LK, kelengkapan dokumen pajak, catatan perbaikan administrasi.</p></div></li>
+          <li><span class="week">Minggu 12</span><div><strong>Final Presentation &amp; Roadmap</strong><p>Presentasi hasil, rekomendasi sistem, roadmap 3-6 bulan ke depan.</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== KONTAK ===================== -->
+  <section class="section cta" id="kontak">
+    <div class="cta__glow" aria-hidden="true"></div>
+    <div class="container cta__inner reveal">
+      <h2 class="cta__title">Siap merapikan keuangan &amp; pajak bisnis Anda?</h2>
+      <p class="cta__lead">Diskusikan kebutuhan bisnis Anda bersama FINARA. Kami bantu dari pembukuan, laporan keuangan, hingga strategi pajak yang patuh.</p>
+      <div class="cta__actions">
+        <a class="btn btn--primary btn--lg" href="https://wa.me/6285721432928" target="_blank" rel="noopener">Chat WhatsApp</a>
+        <a class="btn btn--ghost btn--lg" href="tel:+6285721432928">+62 857-2143-2928</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand__name">FINARA</span>
+        <p>Consulting &amp; Advisory for SME's</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#layanan">Layanan &amp; Harga</a>
+        <a href="#timeline">Timeline</a>
+        <a href="https://www.linkedin.com/in/ismidanty" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
+    </div>
+    <p class="footer__copy container">© <span id="year"></span> FINARA — Ismi Danty Nopiani. Hak Cipta Dilindungi.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
